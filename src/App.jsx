@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Features from './components/Features'
 import About from './components/About'
 import Contact from './components/Contact'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Projects />
         <Features />
         <Contact />
       </main>
@@ -23,6 +25,7 @@ function App() {
           <p className="text-white/60 text-sm">© {new Date().getFullYear()} Afsona Group. All rights reserved.</p>
           <div className="flex items-center gap-6 text-white/60 text-sm">
             <a href="#about" className="hover:text-white">About</a>
+            <a href="#projects" className="hover:text-white">Projects</a>
             <a href="#services" className="hover:text-white">Services</a>
             <a href="#contact" className="hover:text-white">Contact</a>
           </div>
